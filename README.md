@@ -5,7 +5,7 @@ This project is built using an Arduino and a VL53L0X distance sensor. The VL53L0
 Set the MIDI parameters to be transmitted in the Arduino.
 
 Different distances correspond to different signals, representing different sounds, as shown below:
-``` C#
+``` C++
 void loop()
 {
   int distance = sensor.readRangeSingleMillimeters();
