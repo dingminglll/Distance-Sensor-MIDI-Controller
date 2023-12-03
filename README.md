@@ -1,10 +1,10 @@
-#Distance Sensor MIDI Controller
+# Distance Sensor MIDI Controller
 This project is built using an Arduino and a VL53L0X distance sensor. The VL53L0X chip sends distance information back to the Arduino, which then converts these distances into different MIDI signals, transmitting them to the host software.
 
-##Airdrum
+## Airdrum
 Set the MIDI parameters to be transmitted in the Arduino.
 
-Different distances correspond to different signals, representing different sounds, as shown in the figure below:
+Different distances correspond to different signals, representing different sounds, as shown below:
 ``` C#
 void loop()
 {
@@ -48,7 +48,7 @@ In the host software, select the desired drum machine sounds.
 
 The code sets three distance ranges, corresponding to the sounds of a bass drum, a snare drum, and cymbals. By changing the distance from the device, different sounds can be played. Combining different sound combinations and the rhythm of hand waving can create a variety of rhythmic patterns.
 
-##CC Controller
+## CC Controller
 Change the sound waveforms in real-time to achieve real-time changes in sound effects, as shown in the figure below:
 ![Alt text](/img/image2.png)
 
