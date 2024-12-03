@@ -1,5 +1,5 @@
 # Distance Sensor MIDI Controller
-This project is built using an Arduino and a VL53L0X distance sensor. The VL53L0X chip sends distance information back to the Arduino, which then converts these distances into different MIDI signals, transmitting them to the host software.
+This project is built using an Arduino and a VL53L0X distance sensor. The VL53L0X chip sends distance information back to the Arduino, which then converts these distances into different MIDI signals, transmitting them to the DAW.
 
 ## Airdrum
 Set the MIDI parameters to be transmitted in the Arduino.
