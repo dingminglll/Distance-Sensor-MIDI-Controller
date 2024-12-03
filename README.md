@@ -42,9 +42,9 @@ void loop()
 
 Upload the code to the Arduino control board.
 
-Open the host software (e.g., Ableton Live 11) and select Arduino Leonardo as the MIDI device.![Alt text](/img/image3.png)
+Open the DAW (e.g., Ableton Live 11) and select Arduino Leonardo as the MIDI device.![Alt text](/img/image3.png)
 
-In the host software, select the desired drum machine sounds.
+In the DAW, select the desired drum machine sounds.
 
 The code sets three distance ranges, corresponding to the sounds of a bass drum, a snare drum, and cymbals. By changing the distance from the device, different sounds can be played. Combining different sound combinations and the rhythm of hand waving can create a variety of rhythmic patterns.
 
